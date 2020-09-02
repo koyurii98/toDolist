@@ -12,7 +12,7 @@ class CustomAlert extends Component {
                 onClose={()=>modalClose()}
                 anchorOrigin={{vertical: "top", horizontal: "center"}}>
                 <Alert onClose={modalOpen} severity="error">
-                {message}
+                빈칸이있습니다. 
                 </Alert>
             </Snackbar>
         );
